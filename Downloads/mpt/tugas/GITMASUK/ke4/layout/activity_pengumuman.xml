@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".pengumuman">
+
+    <Button
+        android:id="@+id/home3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="PENGUMUMAN"
+        android:id="@+id/judul3"
+        android:layout_below="@+id/home3"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtk3a"
+        android:layout_below="@+id/judul3"
+        android:hint="loading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblk3a"
+        android:layout_below="@+id/txtk3a"
+        android:layout_marginTop="10dp"
+        android:text="-EDIT-"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/datak3a"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtk3a"
+        android:layout_toRightOf="@+id/lblk3a"
+        android:hint="Edit Judul"/>
+
+    <EditText
+        android:id="@+id/datak3b"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datak3a"
+        android:layout_marginTop="5dp"
+        android:hint="Edit Isi Pengumuman"
+        android:textSize="12sp" />
+
+
+    <Button
+        android:id="@+id/update3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/home3"
+        android:text="UPDATE"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>

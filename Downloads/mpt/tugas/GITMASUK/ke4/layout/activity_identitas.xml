@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/judul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDENTITAS MASJID"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:layout_below="@+id/judul2"
+        android:layout_marginTop="35dp"
+        android:textSize="16sp"
+        android:id="@+id/lblk2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama :"/>
+    <TextView
+        android:layout_below="@+id/judul2"
+        android:layout_toRightOf="@+id/lblk2a"
+        android:layout_marginTop="35dp"
+        android:textSize="16sp"
+        android:id="@+id/txtk2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ......."/>
+    <TextView
+        android:layout_below="@+id/lblk2a"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:id="@+id/lblk2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat :"/>
+    <TextView
+        android:layout_below="@+id/lblk2a"
+        android:layout_toRightOf="@+id/lblk2b"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:id="@+id/txtk2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ......."/>
+
+
+    <EditText
+        android:layout_marginTop="35dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/datak2a"
+        android:layout_below="@+id/lblk2b"
+        android:hint="EDIT NAMA MASJID"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/datak2b"
+        android:layout_below="@+id/datak2a"
+        android:hint="EDIT ALAMAT MASJID"
+        />
+
+    <Button
+        android:id="@+id/home2"
+        android:textSize="10sp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/update2"
+        android:layout_below="@+id/datak2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        />
+    <Button
+        android:layout_marginTop="35dp"
+        android:id="@+id/update2"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:layout_below="@+id/datak2b"/>
+</RelativeLayout>

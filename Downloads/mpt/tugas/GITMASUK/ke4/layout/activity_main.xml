@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/biru8c">
+
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:layout_marginTop="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI MOBILE"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btn1m"
+        android:textSize="10sp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/j6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JADWAL SHOLAT"
+        />
+    <Button
+        android:id="@+id/btn2m"
+        android:textSize="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/j6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA MASJID"
+        />
+    <Button
+        android:id="@+id/btn3m"
+        android:textSize="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/j6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENGUMUMAN"
+        />
+    <Button
+        android:id="@+id/btn4m"
+        android:textSize="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/j6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAGLINE"
+        />
+    <Button
+        android:id="@+id/btn5m"
+        android:textSize="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/j6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARQUEE"
+        />
+    <Button
+        android:id="@+id/btn6m"
+        android:textSize="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/j6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SLIDESHOW"
+        />
+
+</LinearLayout>

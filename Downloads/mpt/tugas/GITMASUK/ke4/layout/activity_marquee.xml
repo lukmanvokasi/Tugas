@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".marquee"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtk5a"
+        android:layout_centerHorizontal="true"
+        android:text="loading"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/home5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:layout_below="@+id/txtk5a"
+        android:layout_marginTop="50sp"
+        />
+    <Button
+        android:id="@+id/update5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/home5"
+        android:text="UPDATE"
+        android:layout_below="@+id/txtk5a"
+        android:layout_marginTop="50sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-EDIT-"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:id="@+id/lblk5a"
+        android:layout_below="@+id/update5"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/datak5a"
+        android:layout_below="@+id/lblk5a"/>
+</RelativeLayout>

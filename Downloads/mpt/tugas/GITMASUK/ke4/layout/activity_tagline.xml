@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".tagline">
+
+    <TextView
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtk4a"
+        android:hint="loading"/>
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/txtk4a"
+        android:id="@+id/home4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="HOME"/>
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/txtk4a"
+        android:layout_toRightOf="@+id/home4"
+        android:id="@+id/update4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="UPDATE"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/datak4a"
+        android:layout_below="@+id/home4"
+        />
+
+</RelativeLayout>
